@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-pipeline = # complete this line with the code to load the pipeline from the local file
+pipeline = /Users/staceyjohnson/PycharmProjects/MLE11/FBML11/assignments/week-03-huggingface-fastapi/fast_api_tutorial/app/model
 
 app = FastAPI()
 
