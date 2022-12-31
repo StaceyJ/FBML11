@@ -8,6 +8,8 @@ app = FastAPI()
 class TextToTranslate(BaseModel):
     input_text: str
 
+class  
+
 @app.get("/")
 def index():
     return {"message": "Hello World"}
@@ -19,6 +21,9 @@ def ping():
 @app.post("/echo")
 def echo(text_to_translate: TextToTranslate):
     return {"message": text_to_translate.input_text}
+
+@app.post("/trans")
+def trans()
 
 if __name__ == "__main__":
     import uvicorn
