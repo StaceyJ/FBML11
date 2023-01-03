@@ -1,14 +1,13 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-pipeline = /Users/staceyjohnson/PycharmProjects/MLE11/FBML11/assignments/week-03-huggingface-fastapi/fast_api_tutorial/app/model
+pipeline = 
 
 app = FastAPI()
 
 class TextToTranslate(BaseModel):
     input_text: str
-
-class  
+  
 
 @app.get("/")
 def index():
@@ -20,10 +19,7 @@ def ping():
 
 @app.post("/echo")
 def echo(text_to_translate: TextToTranslate):
-    return {"message": text_to_translate.input_text}
-
-@app.post("/trans")
-def trans()
+    return {"message": text_to_translate.input_text}  
 
 if __name__ == "__main__":
     import uvicorn
