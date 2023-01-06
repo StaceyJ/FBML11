@@ -7,7 +7,7 @@ from transformers import pipeline
 app = FastAPI()
 
 # Initialize the pipeline
-pipeline = transformers.pipeline("translation_en_to_fr", model="t5-small”, max_length=512)
+pipeline = transformers.pipeline("translation_en_to_fr", model="t5-small")
 
 class TextToTranslate(BaseModel):
     input_text: str
