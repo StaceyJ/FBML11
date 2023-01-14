@@ -1,0 +1,55 @@
+EDA with Walmart Sales Data Rubric
+
+This criterion is linked to a Learning Outcome
+Execute Programming Code Assignment
+Complete Tasks 1-6 in the EDA with Walmart Sales Data Notebook
+6 pts
+Full Marks	0 pts
+No Marks
+This criterion is linked to a Learning Outcome
+Algorithm Understanding
+Feature selection methods are intended to reduce the number of input variables to those that are believed to be most useful to a model in order to predict the target variable. What 
+algorithms can be used to automatically select the most important features (regression, etc..)? Describe at least 3?
+1. Recursive Feature Elimination (RFE): This algorithm recursively eliminates the least important features by training the model with the remaining features. The process is repeated 
+until the desired number of features is reached.
+
+2. Lasso Regression: This algorithm uses L1 regularization, which adds a penalty term to the cost function, effectively reducing the magnitude of the coefficients of less important 
+features.
+
+3. Random Forest Importance: This algorithm calculates the importance of features by averaging the decrease in impurity of a feature across all trees in the forest. Features with 
+higher importance scores are considered more important.
+1 pts
+Full Marks	0 pts
+No Marks
+This criterion is linked to a Learning Outcome
+Interview Readiness
+Explain data leakage and overfitting (define each)?
+Explain the effect of data leakage and overfitting on the performance of an ML model.
+1. Data leakage refers to a model being able to use information from the future to make predictions about the past.
+2. Overfitting occurs when a model is trained too well on the training data.
+For example, if the model is trained on data that includes information from the future, it will perform well on the training set but poorly on new unseen data. 
+Overfitting can occur when a model has having too many features or too many layers in a neural network, or not enough training data.
+1 pts
+Full Marks	0 pts
+No Marks
+This criterion is linked to a Learning Outcome
+Interview Readiness
+Explain what our outliers in your data?
+Explain at least two methods to deal/treat outliers in your data?
+Outliers in data are values that are significantly different from the majority of the other values in the dataset. Mostly extremely high values.
+1. Data cleaning involves identifying the outlier values and correcting them. This can be done by removing the outlier values from the dataset or replacing them with a more 
+appropriate value.
+2. Anomaly detection identifies the outliers based on statistical methods such as Z-scores. Once located, they can be properly handled. 
+1 pts
+Full Marks	0 pts
+No Marks
+This criterion is linked to a Learning Outcome
+Interview Readiness
+What is feature scaling and why is it important to our model?
+Explain the different between Normalization and Standardization?
+Feature scaling is a method used to standardize the range of independent variables or features of data.
+Normalization is a technique that scales a variable to have a values between 0 and 1.
+Standardization is a technique that scales a variable so that it has a mean of 0 and standard deviation of 1.
+1 pts
+Full Marks	0 pts
+No Marks
